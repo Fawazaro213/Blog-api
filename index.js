@@ -23,8 +23,8 @@ app.get("/", (req, res) => {
   });
 });
 // Settting up the routes
-app.use("/blogspot", authRoutes); //User routes
-app.use("/blogspot", blogRoutes); //Blog routes
+app.use("/bloghostt", authRoutes); //User routes
+app.use("/bloghostt", blogRoutes); //Blog routes
 
 
 //setting a 404 page

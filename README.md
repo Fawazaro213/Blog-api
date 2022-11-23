@@ -1,4 +1,4 @@
-# Blogspot
+# BlogHost
 
 This is an api for a blog app
 
@@ -98,7 +98,7 @@ Come up with any algorithm for calculating the reading_time of the blog.
 
 ### Creating a user
 
-- Route: /blogspot/signup
+- Route: /bloghostt/signup
 - Method: POST
 
 :point_down: Body
@@ -132,7 +132,7 @@ Come up with any algorithm for calculating the reading_time of the blog.
 
 ### Login User
 
-- Route: /blogspot/login
+- Route: /bloghostt/login
 - Method: POST
 - Body:
 
@@ -157,7 +157,7 @@ Success
 
 ### Create Blog
 
-- Route: /blogspot/blog
+- Route: /bloghostt/blog
 - Method: POST
 - Header
   - Authorization: cookie {token}
@@ -208,7 +208,7 @@ Success
 
 ## Update the contents of a Blog
 
-- Route: /blogspot/blog/:id
+- Route: /bloghostt/blog/:id
 - Method: PATCH
 - Header
 - Authorization: cookie{token}
@@ -247,7 +247,7 @@ Success
 
 ### Get all Blogs
 
-- Route: /blogspot/blogs
+- Route: /bloghostt/blogs
 - Method: get
 
 :point_down: Body
@@ -279,7 +279,7 @@ Success
 
 ## Delete Blog
 
-- Route: blogspot/blog/:id
+- Route: bloghostt/blog/:id
 - Method: Delete
 - Requirement: User must be logged in
 
